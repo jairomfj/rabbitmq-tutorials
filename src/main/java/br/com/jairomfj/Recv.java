@@ -9,6 +9,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.TimeoutException;
 
 public class Recv {
+
     private final static String QUEUE_NAME = "hello";
 
     public static void main(String[] argv) throws java.io.IOException, java.lang.InterruptedException, TimeoutException, URISyntaxException, KeyManagementException, NoSuchAlgorithmException {
@@ -28,9 +29,7 @@ public class Recv {
             }
         };
 
-
         channel.basicConsume(QUEUE_NAME, true, consumer);
-
-
     }
+
 }
