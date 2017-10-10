@@ -1,4 +1,4 @@
-package br.com.jairomfj;
+package br.com.jairomfj.tutorial1;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
